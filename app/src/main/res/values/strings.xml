@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EnterYourDetails</string>
+    <string name="name">NAME</string>
+    <string name="name_Txt">Name</string>
+    <string name="dateofbirthLabel">DateOfBirth</string>
+    <string name="emailLbl">Email</string>
+    <string name="exitBtn">EXIT</string>
+    <string name="nextBtn">NEXT</string>
+    <string name="details_entered">DETAILS ENTERED</string>
+    <string name="back">BACK</string>
+    <string name="details">Details</string>
+</resources>
