@@ -24,10 +24,10 @@
         android:id="@+id/nameTxt"
         android:layout_width="270dp"
         android:layout_height="78dp"
+        android:hint="@string/your_name"
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:text="@string/name_Txt"
         android:textColor="#0E0E0E"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,6 +44,7 @@
         android:layout_height="58dp"
         android:ems="10"
         android:importantForAutofill="no"
+        android:focusable="false"
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,56 +126,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.954" />
-
-    <View
-        android:id="@+id/panelView"
-        android:layout_width="332dp"
-        android:layout_height="265dp"
-        android:background="#494444"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/back"
-        android:textColor="#000000"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
-
-    <TextView
-        android:id="@+id/detailsDisplayTxt"
-        android:layout_width="242dp"
-        android:layout_height="133dp"
-        android:text="@string/details"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/topViewTxt"
-        android:layout_width="170dp"
-        android:layout_height="38dp"
-        android:text="@string/details_entered"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
